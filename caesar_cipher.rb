@@ -15,6 +15,7 @@ def caesar_cipher(message, shift)
     cipher
   end
 
+# small test
 message = "ola amigo, tuud bem ???"
 shifts = 17545
 puts caesar_cipher(message, shifts)
